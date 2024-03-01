@@ -1,0 +1,40 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  background-color: black;
+}
+
+h1 {
+  font-family: "EditorialNew-Regular";
+  font-size: 8rem;
+  color: #fff;
+}
+
+h2 {
+  font-family: "Geist-Regular";
+  font-size: 2rem;
+  color: #fff;
+}
+
+@font-face {
+  font-family: "EditorialNew-Regular";
+  src: url("fonts/ppEditorialNew/Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Geist-Regular";
+  src: url("fonts/Geist/Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GeistMono-Regular";
+  src: url("fonts/GeistMono/Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
